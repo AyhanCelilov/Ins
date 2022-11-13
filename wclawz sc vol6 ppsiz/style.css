@@ -1,0 +1,101 @@
+html { 
+    background:url(https://assets-global.website-files.com/55e67eeba2e73cb76514f165/5987c3116dccc600016b682d_Webflow%20Elements.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.up {
+    width:100%;
+    height:180px;
+    background: #fff;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius: 45%;
+    margin-top:-6px;
+}
+.middle {
+    color:#fff;
+}
+.middle h1 {
+    font-size: 25px;
+}
+.middle p {
+    padding:0 10 0 10px;
+}
+.inputcwz {
+    width:280px;
+    height:35px;
+    border:0.7px solid #fff;
+    border-radius: 25px;
+    padding:0 0 0 20px;
+    background: #fff;
+    color:#000;
+    transition: 100ms;
+    font-family: 'Poppins', Sans-Serif;
+}
+.inputcwz:hover {
+    border:1px solid #000;
+}
+.inputcwz::placeholder {
+    color:grey;
+    font-family: 'Poppins', Sans-Serif;
+}
+.inputcwz:hover::placeholder {
+    color:#000;
+}
+.btn {
+    width:260px;
+    height:35px;
+    border:0.7px solid #fff;
+    border-radius: 25px;
+    background: transparent;
+    color:#fff;
+    font-family: 'Poppins', Sans-Serif;
+    transition:100ms;
+}
+.btn:hover {
+    border:1px solid #000;
+    font-weight: bold;
+    background: #fff;
+    color:#000;
+}
+form:invalid input[type="submit"]{
+    pointer-events: none;
+    opacity:.3;
+}
+
+form:valit input[type="submit"]{
+    pointer-events: initial;
+    opacity:1;
+}
+.bilgiler {
+    width:340px;
+    height:auto;
+    background: #fff;
+    border-radius:5px;
+    color:#000;
+}
+th , td {
+    padding:10 40 0 40px;
+}
+.bilgiler > h4 {
+    margin-top:-5px;
+}
+.list {
+    list-style-type: none;
+}
+.follower {
+    padding-left:10px;
+}
+
+.btnx {
+    background:#fff;
+    color:#000;
+}
+.btnx:hover {
+    background: transparent;
+    color:#fff;
+}
